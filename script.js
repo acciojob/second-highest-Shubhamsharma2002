@@ -1,4 +1,3 @@
-//your JS code here. If required.
 function secondHighest(arr) {
   let first = -Infinity;
   let second = -Infinity;
@@ -14,3 +13,12 @@ function secondHighest(arr) {
 
   return second;
 }
+
+let n = Number(prompt());
+let arr = [];
+
+for (let i = 0; i < n; i++) {
+  arr.push(Number(prompt()));
+}
+
+alert(secondHighest(arr));
